@@ -1,3 +1,7 @@
+## About
+
+This kit is a simple starter with common must have features for your project.
+
 ## Start
 
 `yarn install && yarn start` - start development
@@ -6,12 +10,11 @@
 
 ### Debug
 
-addon-knobs
-addon-actions
-addon-console
+🔹 addon-knobs  
+🔹 addon-actions  
+🔹 addon-console
 
 ### Quality
 
-addon-a11y
-
-## TODO
+🔸 addon-a11y
+🔸 addon-info
