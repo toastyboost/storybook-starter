@@ -18,3 +18,7 @@ This kit is a simple starter with common must have features for your project.
 
 🔸 addon-a11y
 🔸 addon-info
+
+# Other things to know
+
+Typescript version in /typescript branch
