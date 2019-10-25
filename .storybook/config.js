@@ -5,13 +5,15 @@ import { withKnobs } from '@storybook/addon-knobs/react'
 import { withA11y } from '@storybook/addon-a11y'
 import { withConsole } from '@storybook/addon-console'
 import { withInfo } from '@storybook/addon-info'
+import { themes } from '@storybook/theming'
 
 // Global
 
 addParameters({
   options: {
     showPanel: true,
-    panelPosition: 'right'
+    panelPosition: 'right',
+    theme: themes.dark
   }
 })
 
