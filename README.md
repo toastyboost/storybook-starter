@@ -1,7 +1,5 @@
 ## About
 
-[![Storybook](https://cdn.jsdelivr.net/gh/storybookjs/brand@master/badge/badge-storybook.svg)](link to site)
-
 Basic and ⚡ storybook starter with common features for your project.
 
 ## Start
