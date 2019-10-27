@@ -10,5 +10,10 @@ export const WithHandler = () => {
     toggle(!isClicked)
   }
 
-  return <Button onClick={handleClick}>Hello Button {isClicked && 'clicked!'}</Button>
+  return (
+    <Button onClick={handleClick}>
+      Hello Button {isClicked && 'clicked!'}
+      {test()}
+    </Button>
+  )
 }
