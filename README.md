@@ -8,13 +8,12 @@ Basic and ⚡ storybook starter with common features for your project.
 
 ## Features
 
-### Debug
-
 🔹 addon-knobs  
 🔀 addon-actions  
-🔹 addon-console
+🔹 addon-console  
 🔸 addon-a11y  
 📄 addon-info
+
 🔸Alias in config
 
 # Other things to know
