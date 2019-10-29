@@ -1,6 +1,6 @@
 ## Storybook-Stater
 
-Basic and ⚡ storybook starter with common features for your project.
+Basic and ⚡storybook starter with common features for your project.
 
 ## Start
 
@@ -16,6 +16,6 @@ Must-have plugins for development:
 - [x] addon-a11y
 - [x] addon-info
 
-# Other
+## Other
 
-- [ ]Typescript version in /typescript branch
+- [ ] Typescript version
