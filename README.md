@@ -1,26 +1,21 @@
-## About
+## Storybook-Stater
 
 Basic and ⚡ storybook starter with common features for your project.
 
 ## Start
 
-`yarn install && yarn start` - start development on `http://localhost:7000`
+`yarn install && yarn start` - start development on `http://localhost:7000` host
 
 ## Plugins
 
-### Debug
+Must-have plugins for development:
 
-🔹 addon-knobs  
-🔀 addon-actions  
-🔹 addon-console
+- [x] addon-knobs
+- [x] addon-actions
+- [x] addon-console
+- [x] addon-a11y
+- [x] addon-info
 
-### Quality
+# Other
 
-🔸 addon-a11y  
-📄 addon-info
-
-# Other things to know
-
-Typescript version in /typescript branch
-
-# To Do
+- [ ]Typescript version in /typescript branch
