@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@storybook/addon-console": "^1.2.1",
+    "path": "^0.12.7",
     "react": "^16.11.0",
     "react-dom": "^16.11.0"
   },
