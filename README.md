@@ -16,6 +16,14 @@ Must-have plugins for development:
 - [x] addon-a11y
 - [x] addon-info
 
+## Features
+
+- [x] EsLint with AirBnb config
+
 ## Other
 
 - [ ] Typescript version
+
+## ToDo
+
+- [ ] Add images for plugin section
