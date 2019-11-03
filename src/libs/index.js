@@ -1,1 +1,1 @@
-export * from './'
+export { cats, dogs } from './mocks'

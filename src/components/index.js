@@ -1,1 +1,1 @@
-export * from './'
+export { Mapping } from './Mapping'
