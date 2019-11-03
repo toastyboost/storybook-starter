@@ -5,6 +5,7 @@ Basic and ⚡storybook starter with common features for your project.
 ## Start
 
 `yarn install && yarn start` - start development on `http://localhost:7000` host
+`build-story` - build story for production
 
 ## Plugins
 
