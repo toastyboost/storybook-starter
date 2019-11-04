@@ -29,3 +29,4 @@ Must-have plugins for development:
 
 - [ ] Add images for plugin section
 - [ ] Add description for plugins
+- [ ] Choose emoji to title
