@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import * as React from 'react'
 import { Button } from '@storybook/react/demo'
 
@@ -12,5 +13,13 @@ export const withConsole = () => {
 
   console.log(`Button state => ${isClicked}`)
 
-  return <Button onClick={handleClick}>Hello Button {isClicked && 'clicked!'}</Button>
+  return (
+    <Button onClick={handleClick}>
+      Hello Button &nbsp;
+      <span role="img" aria-label="Thumb Up">
+        👍
+      </span>
+      {isClicked && 'clicked!'}
+    </Button>
+  )
 }

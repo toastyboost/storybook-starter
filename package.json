@@ -20,17 +20,18 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.16.0",
-    "antd": "^3.24.3",
     "styled-components": "^4.4.0"
   },
   "peerDependencies": {
+    "antd": "^3.24.3",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^4.4.0"
   },
   "scripts": {
     "start": "start-storybook -p 7000",
-    "build-story": "build-storybook -c .storybook"
+    "build-story": "build-storybook -c .storybook",
+    "snapshot": "build-storybook && percy-storybook --widths=320,1280"
   },
   "license": "MIT",
   "tags": [
@@ -38,5 +39,8 @@
     "storybook",
     "boilerplate",
     "starter"
-  ]
+  ],
+  "dependencies": {
+    "@percy/storybook": "^3.2.0"
+  }
 }

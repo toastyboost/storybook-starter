@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import * as React from 'react'
 import { Button } from '@storybook/react/demo'
 import { Mapping } from 'src/ui'
@@ -13,7 +14,7 @@ export const WithHandler = () => {
 
   return (
     <Button onClick={handleClick}>
-      Hello Button {isClicked && 'clicked!'}
+      Hello Button State {isClicked && 'clicked!'}
     </Button>
   )
 }

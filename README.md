@@ -21,9 +21,20 @@ Must-have plugins for development:
 
 - [x] EsLint with AirBnb config
 
-## Other
+## Other Features (in Branches)
 
+- [x] Visual testing with Percy.io
 - [ ] Typescript version
+
+## Visual Testing
+
+Helpfull tool for visual testing by your designers.
+
+### Start
+
+1. Register to get service token
+2. Create project to identfy your snapshots
+3. Register token: `export PERCY_TOKEN=<your token here>`
 
 ## ToDo
 

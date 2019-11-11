@@ -1,3 +1,4 @@
+/* eslint-disable import/no-extraneous-dependencies */
 import * as React from 'react'
 import { Button } from '@storybook/react/demo'
 import { text, boolean } from '@storybook/addon-knobs'
@@ -23,5 +24,9 @@ export const withBoleanKnob = () => {
 }
 
 export const withAction = () => {
-  return <Button onClick={(e) => action('What returns Button')(e)}>Hello Button</Button>
+  return (
+    <Button onClick={(e) => action('What returns Button')(e)}>
+      Hello Button
+    </Button>
+  )
 }
