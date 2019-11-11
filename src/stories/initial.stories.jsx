@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Button } from '@storybook/react/demo'
-import { Mapping } from 'src/components'
+import { Mapping } from 'src/ui'
 
 export default { title: 'Starter' }
 

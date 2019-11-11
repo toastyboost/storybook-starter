@@ -4,10 +4,7 @@
   "plugins": ["jsx-a11y", "import"],
   "settings": {
     "import/resolver": {
-      "alias": [
-        ["src/components", "./src/components"],
-        ["src/libs", "./src/libs"]
-      ],
+      "alias": [["src/ui", "./src/ui"], ["src/libs", "./src/libs"]],
       "node": {
         "paths": ["src"]
       }

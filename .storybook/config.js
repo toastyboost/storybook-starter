@@ -31,7 +31,6 @@ addDecorator(
 )
 
 addDecorator(withKnobs)
-addDecorator(withA11y)
 
 addDecorator((storyFn, context) => withConsole()(storyFn)(context))
 
