@@ -27,10 +27,9 @@ addDecorator(
   withInfo({
     header: true,
     source: false
-  })
+  }),
+  withKnobs
 )
-
-addDecorator(withKnobs)
 
 addDecorator((storyFn, context) => withConsole()(storyFn)(context))
 

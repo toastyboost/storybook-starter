@@ -1,6 +1,6 @@
 ## Storybook-Stater
 
-Basic and ⚡storybook starter with common features for your project.
+Basic and storybook starter with common features for your project.
 
 ## Start
 
@@ -36,6 +36,8 @@ Helpfull tool for visual testing by your designers.
 
 ## ToDo
 
+- [ ] Change files to new structure
 - [ ] Add images for plugin section
 - [ ] Add description for plugins
 - [ ] Choose emoji to title
+- [ ] Add atomic design files
