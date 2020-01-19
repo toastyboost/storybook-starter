@@ -1,4 +1,4 @@
-## Storybook stater with TypeScript.
+## 🐣Storybook stater (with TypeScript)
 
 Basic, fast and working. Only key features. Ready to fork.
 
@@ -6,6 +6,11 @@ Basic, fast and working. Only key features. Ready to fork.
 
 `yarn story` - start dev server on `http://localhost:6006`  
 `yarn story-build` - build storybook for deployment
+
+## Features
+
+- [x] Aliases
+- [x] Last stories syntax
 
 ## Plugins
 
