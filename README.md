@@ -10,7 +10,7 @@ Basic, fast and working. Only key features. Ready to fork.
 ## Features
 
 - [x] Aliases
-- [x] Last stories syntax
+- [x] Modern stories syntax
 
 ## Plugins
 
