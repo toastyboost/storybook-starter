@@ -3,7 +3,7 @@ import * as React from "react";
 export const Ctx = React.createContext({ isOpen: false });
 
 type ComponentProps = {
-  index: number;
+  index?: number;
 };
 
 export const Component: React.FC<ComponentProps> = ({ children, index }) => {

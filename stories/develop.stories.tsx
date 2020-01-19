@@ -1,6 +1,8 @@
-import * as React from 'react';
+import * as React from "react";
 
-export default { title: 'Develop' };
+import { Component } from "~/";
+
+export default { title: "Develop" };
 
 export const withConsole = () => {
   const [isClicked, toggle] = React.useState(false);
@@ -13,7 +15,8 @@ export const withConsole = () => {
 
   return (
     <button onClick={handleClick}>
-      Hello Button {isClicked && 'clicked!'}
+      <Component />
+      Hello Button {isClicked && "clicked!"}
     </button>
   );
 };
