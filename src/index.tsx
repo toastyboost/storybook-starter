@@ -1,19 +1,15 @@
 import * as React from "react";
 
-export const Ctx = React.createContext({ isOpen: false });
-
 type ComponentProps = {
   index?: number;
 };
 
-export const Component: React.FC<ComponentProps> = ({ children, index }) => {
-  const [counter, setActiveIndex] = React.useState(index);
-  const context = React.useContext(Ctx);
+export const Component: React.FC<ComponentProps> = ({ children }) => {
+  const [counter, setActiveIndex] = React.useState<number>(0);
 
   return (
     <div onClick={() => setActiveIndex(counter + 1)}>
-      {children}
-      {JSON.stringify(context)}
+      {children} &rarr; {counter}
     </div>
   );
 };

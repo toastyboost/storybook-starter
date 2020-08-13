@@ -1,4 +1,4 @@
-## 🐣Storybook stater (with TypeScript)
+## 🐣Storybook Stater
 
 Basic, fast and working. Only key features. Ready to fork.
 
@@ -9,19 +9,11 @@ Basic, fast and working. Only key features. Ready to fork.
 
 ## Features
 
+- [x] Typescript
+- [x] Theming
 - [x] Aliases
-- [x] Modern stories syntax
+- [x] Essensial Addons
 
-## Plugins
-
-Fundamental plugins for development:
-
-- [x] addon-knobs
-- [x] addon-actions
-- [x] addon-console
-- [x] addon-docs
- 
 ## ToDo
 
-- [x] All Done
- 
+- [x] Aliases

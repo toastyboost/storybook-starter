@@ -1,28 +1,19 @@
 {
   "name": "storybook-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "scripts": {
-    "story": "start-storybook -p 6006"
+    "story": "start-storybook -p 6006 --no-dll"
   },
   "devDependencies": {
-    "@storybook/addons": "^5.2.8",
-    "@storybook/react": "^5.2.8",
-    "@types/node": "^13.1.8",
-    "@types/react": "^16.9.17",
-    "babel-loader": "^8.0.6",
-    "react-docgen-typescript-loader": "^3.6.0",
-    "storybook-dark-mode": "^0.2.0",
-    "ts-loader": "^6.2.1",
-    "typescript": "^3.7.5"
+    "prettier": "^2.0.5"
   },
   "dependencies": {
-    "@storybook/addon-actions": "^5.3.6",
-    "@storybook/addon-console": "^1.2.1",
-    "@storybook/addon-docs": "^5.3.6",
-    "@storybook/addon-knobs": "^5.3.6",
-    "@storybook/preset-typescript": "^1.2.0",
-    "@storybook/theming": "^5.3.6"
+    "@storybook/addon-essentials": "^6.0.5",
+    "@storybook/react": "^6.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.1"
   },
   "repository": "https://github.com/toastyboost/storybook-starter",
   "author": "https://github.com/toastyboost",

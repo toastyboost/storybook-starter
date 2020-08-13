@@ -1,22 +1,31 @@
 import * as React from "react";
 
-import { Component } from "~/";
+import { Component } from "../src";
 
-export default { title: "Develop" };
+export default {
+  title: "Develop",
+  component: Component,
+  argTypes: {
+    backgroundColor: { control: "color" },
+  },
+};
 
-export const withConsole = () => {
+export const Console = (args: any) => {
   const [isClicked, toggle] = React.useState(false);
 
   const handleClick = () => {
     toggle(!isClicked);
   };
 
-  console.log(`Button state => ${isClicked}`);
+  console.log(args);
 
   return (
-    <button onClick={handleClick}>
-      <Component />
-      Hello Button {isClicked && "clicked!"}
+    <button onClick={handleClick} style={{ ...args }}>
+      <Component>{args.label}</Component>
     </button>
   );
+};
+
+Console.args = {
+  label: "hello",
 };
