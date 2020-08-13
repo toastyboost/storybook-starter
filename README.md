@@ -11,7 +11,6 @@ Basic, fast and working. Only key features. Ready to fork.
 
 - [x] Typescript
 - [x] Theming
-- [x] Aliases
 - [x] Essensial Addons
 
 ## ToDo
